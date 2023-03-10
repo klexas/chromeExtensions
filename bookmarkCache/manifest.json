@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Bookmark Cache",
+    "description": "Cache bookmarks for offline use",
+    "version": "1.0",
+    "background": {
+        
+    },
+    "permissions": [
+        "bookmarks",
+        "storage",
+        "pageCapture",
+        "tabs"   
+    ],
+    "action": {
+        "default_popup": "main.html",
+        "default_title": "Bookmark Cache"
+    }
+}

@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Bookmark Cacher</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+        h4 {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        hr {
+            border: 1px solid #ccc;
+        }
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        #infoArea {
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #eee;
+        }
+    </style>
+    <body>
+    <h4>Bookmark Cacher</h4>
+
+    <p>Proxy Host URL</p>
+    <input type="text" id="proxy_url" />
+    <button id="set_proxy">Cache All</button>
+
+
+    <hr />
+    <p>Cache all bookmarks</p>
+    <button id="cache_all">Cache All</button>
+
+    <hr />
+    <p>Cache a single bookmark</p>
+    <input type="text" id="cache_single" />
+    <button id="cache_single_button">Cache</button>
+
+    <hr />
+    <div id="infoArea"></div>
+</body>
+<script src="background.js"></script>
+</html>
